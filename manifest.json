@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Dark/Light Mode Toggle",
+  "version": "1.0",
+  "description": "Toggle any website between dark and light theme with one click.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Toggle Dark/Light"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
