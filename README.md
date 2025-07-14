@@ -42,8 +42,8 @@ A simple and useful Chrome extension that allows users to toggle any website bet
 
 ## 🎥 Demo Video
 
-[📺 Watch the YouTube demo here](#)  
-(*replace this with the actual link once your demo is uploaded*)
+[📺 https://youtu.be/tooK5qPJt9w](#)  
+
 
 ---
 
