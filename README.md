@@ -17,7 +17,7 @@ A simple and useful Chrome extension that allows users to toggle any website bet
 
 - `popup.html` contains a button
 - `popup.js` sends a toggle message to the current tab
-- `content.js` listens for the message and injects/removes dark-mode styles
+- `content.js` receives the message and injects/removes dark-mode styles
 
 ---
 
@@ -42,24 +42,22 @@ A simple and useful Chrome extension that allows users to toggle any website bet
 
 ## 🎥 Demo Video
 
-[📺 https://youtu.be/tooK5qPJt9w](#)  
-
+[📺 Watch the YouTube demo here](https://youtu.be/tooK5qPJt9w)
 
 ---
 
 ## ⚠️ Limitations & Future Work
 
-- Websites using **Shadow DOM** (e.g. YouTube, ChatGPT) may not be fully themed
+- Websites using **Shadow DOM** (e.g. YouTube, ChatGPT) are partially supported
 - Dynamic elements may need advanced handling like MutationObservers
-- Future version could support per-site overrides or light mode re-injection
+- Future version could support per-site overrides or light mode injection
 
 ---
 
 ## 👤 Author
 
 **Anufer Sadik**  
-[GitHub Profile](https://github.com/Anufer-Sadik287)  
-
+[GitHub Profile](https://github.com/Anufer-Sadik287)
 
 ---
 
